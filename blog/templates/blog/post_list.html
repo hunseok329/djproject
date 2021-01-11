@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Kim's blog</title>
+    </head>
+    <p>Hi there!</p>
+    <P>It works!</P>
+    {% for post in posts %}
+        <!-- {{ post }} -->
+        <div>
+            <P>published: {{ post.published_date }}</P>
+            <h1><a href="">{{ post.title }}</a></h1>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+</html>
