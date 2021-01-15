@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'todolist',
     # 'rest_framework',
     # 'mysite',
     # 'api',

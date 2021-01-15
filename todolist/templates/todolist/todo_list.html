@@ -1,0 +1,16 @@
+{% extends 'todolist/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="center">todolist</h1>
+        <p>simple todolist with django</p>
+
+        <form method="POST">
+            
+        </form>
+
+        {% for list in todolist %}
+            <div>{{ list.title }}</div>
+        {% endfor %}
+    </div>
+{% endblock %}
