@@ -1,9 +1,32 @@
 h1 {
     font-size: 100px;
-    margin: 0 auto;
-    color: aqua;
+    color:dimgray;
 }
 
-/* .container {
-    text-align: center;
-} */
+p {
+    color: darkgray;
+}
+.container {
+    margin-top: 10%;
+}
+
+.todo-container {
+    width: 40%;
+    padding-top: 3%;
+    margin: 0 auto;
+}
+.todo-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+    line-height: 250%;
+    transition-duration: 0.5s;
+}
+.todo-list:hover {
+    background-color:lightgrey;
+    border-radius: 5px;
+}
+.input-group {
+    margin: 0 auto;
+    width: 60%;
+}

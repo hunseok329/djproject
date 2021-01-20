@@ -12,7 +12,7 @@ def todo_create(request):
     todolist = ToDoList.objects.all()
     if request.method == 'POST':
         title = request.POST['title']
-        new_todo = ToDoList(title=title, content="전송 잘됨", created_date=timezone.now())
+        new_todo = ToDoList(title=title, created_date=timezone.now())
         new_todo.save()
     return redirect('todo_list')
 
