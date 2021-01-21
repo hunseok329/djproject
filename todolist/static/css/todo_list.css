@@ -6,8 +6,15 @@ h1 {
 p {
     color: darkgray;
 }
+
+.home {
+    margin: 3%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .container {
-    margin-top: 10%;
+    margin-top: 4%;
 }
 
 .todo-container {

@@ -14,11 +14,12 @@
   </head>
   <body>
     <div class="container">
-        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon-plus"> a</span></a>
-        <h1><a href="/">Django Blog</a></h1>
+        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon-plus">새글쓰기</span></a>
+        <h1><a href="/blog/">Django Blog</a></h1>
     </div>
 
     <div class="content container">
+      <a href="/">home</a>
         <div class="row">
             <div class="col-md-8">
             {% block content %}

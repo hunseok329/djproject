@@ -15,9 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from blog.views import main
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('', include('blog.urls')),
-    path('', include('todolist.urls'))
+    path('', main, name="main"),
+    path('blog/', include('blog.urls')),
+    path('todolist/', include('todolist.urls'))
 ]

@@ -55,7 +55,7 @@ INSTALLED_APPS = [
     'blog',
     'todolist',
     # 'rest_framework',
-    # 'mysite',
+    'mysite',
     # 'api',
 ]
 
